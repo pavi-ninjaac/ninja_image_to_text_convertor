@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="">
+    <meta charset="UTF-8">
+    <title>display the image</title>
+</head>
+<body>
+<h1><i>Image.....</i></h1>
+{% if img_src %}
+<img style="padding-left:580px;" src="{{ img_src }}" width="200" height="300" align="middle">
+{% endif %}
+<hr/>
+<h1></h1>
+{% if text %}
+<h5 style="color:red; text-align:center; ">The extracted text from the uploaded image is</h5>
+<p style="text-align:center;"><b>{{ text }}</b></p>
+{% endif %}
+
+</body>
+</html>
