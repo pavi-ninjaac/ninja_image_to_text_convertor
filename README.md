@@ -12,3 +12,4 @@
 ## screenshorts
 ![Screenshot (6)](https://user-images.githubusercontent.com/51699297/77400072-a65d9f00-6dd0-11ea-9c54-72381def2047.png)
 ![Screenshot (7)](https://user-images.githubusercontent.com/51699297/77400454-33a0f380-6dd1-11ea-8105-7550b4b9941a.png)
+![Screenshot (8)](https://user-images.githubusercontent.com/51699297/77400675-8ed2e600-6dd1-11ea-9321-f1434c7422dd.png)
