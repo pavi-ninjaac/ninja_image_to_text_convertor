@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        .h11{
+        color:white;
+        text-align:left;
+        background-color:DarkViolet;
+        border-radius:50px;
+        width:100%;
+        height:100px;
+        }
+    </style>
     <link rel="stylesheet" href="/static/css/style_01.css" >
     <meta charset="UTF-8">
     <title>upload a image</title>
 </head>
 <body>
-    <h1 style="color:blue; text-align:center;"><b><i>Welcome to our image to text convertor...</i></b></h1>
+    <div class="h11">
+        <h1 style="padding:25px;">Welcome to our image to text convertor...</h1>
+    </div>
     <br/>
-    <img src="/static/images/ocr.png" alt="Uploaded image" width="100%" height="400" align="middle">
+    <img src="/static/images/ocr.png" alt="Uploaded image" width="100%" height="300" >
     <div class="phara">
         <p style="text-align:center; " ><b><i>we present you that an wounderful image to text convertor works with OCR(optical charecter recognition) technique that extract the english word in your photo and give you the text.</i></b></p>
     </div>
     <form action="/detect_image" method="POST" enctype="multipart/form-data">
         <div class="input_file">
             <div class="file">
-                <input type="file" name="file"><br/>
+                <input type="file" name="file" style="border-radius:15px; border:2px solid blue;"><br/>
             </div>
                 <input type="submit" value="convert">
         </div>
